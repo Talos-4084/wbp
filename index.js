@@ -228,7 +228,7 @@ function shots() {
     return d('rglob(\'' + pages + '/*.html\')', rglob(pages + '/*.html')).then(function (pageFiles) {
       return Promise.all(domains.map(function (site) {
         return new Promise(function (resolve, reject) {
-          var cmd = 'waybackpack ' + site + ' -d ' + pages + ' --uniques-only --list ' + ' --from-date '+ getStart(pageFiles);
+          var cmd = 'waybackpack ' + site + ' -d ' + pages + ' --uniques-only  ' + ' --from-date '+ getStart(pageFiles);
           d(cmd);
           (0, _child_process.exec)(cmd, function (err) {
             return err ? reject(err) : resolve();
