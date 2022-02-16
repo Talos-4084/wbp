@@ -23,9 +23,9 @@
     "assignment": "^2.2.1",
     "bluebird": "^3.4.7",
     "debug": "^2.6.0",
-    "gifencoder": "^1.0.6",
+    "gifencoder": "^2.0.1",
     "glob": "^7.1.1",
-    "gm": "^1.23.0",
+    "gm": "^1.23.1",
     "histogram": "^2.1.1",
     "image-diff-2": "^1.0.0",
     "lodash": "^4.17.4",
@@ -33,7 +33,7 @@
     "mkdirp": "^0.5.1",
     "moment": "^2.17.1",
     "pageres": "^4.3.0",
-    "png-js": "^0.1.1",
+    "png-js": "^1.0.0",
     "tmp": "^0.0.31"
   },
   "devDependencies": {
